@@ -66,7 +66,7 @@
         }
         
         .section-padding {
-            padding: 100px 0;
+            padding: 50px 0;
         }
         
         .section-title {
@@ -230,7 +230,7 @@
         
         .demon-character.show {
             opacity: 1;
-            right: 20px;
+            right: 80px;
         }
         
         .demon-character.hide {
@@ -241,7 +241,7 @@
         .demon-greeting {
             position: absolute;
             top: -40px;
-            left: 50%;
+            left: 80%;
             transform: translateX(-50%);
             background: var(--accent);
             color: var(--primary-text);
