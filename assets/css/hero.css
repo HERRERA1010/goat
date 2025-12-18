@@ -3,7 +3,7 @@
             display: flex;
             align-items: center;
             background: var(--background);
-            margin-top: 220px;
+            margin-top: 120px;
         }
         .hero-content {
             padding: 1rem;

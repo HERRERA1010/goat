@@ -1,5 +1,5 @@
 :root {
-  --background: #1b3c53; /* Deep blue background */
+  --background: #3B0270; /* Deep blue background */
   --text: #e3e3e3; /* Light gray text */
   --accent: #ffffff; /* White accent (contrast color) */
   --text-muted: #a0a0a0; /* Muted text */
@@ -70,7 +70,7 @@ p,
 }
 
 .navbar {
-  background-color: rgba(27, 60, 83, 0.95);
+  background-color: var(--background);
   border-bottom: 1px solid rgba(227, 227, 227, 0.1);
   padding: 15px 0;
   position: fixed;
@@ -97,7 +97,7 @@ p,
   margin-left: 25px;
   font-weight: 500;
   transition: color 0.3s ease;
-  font-size: 1rem !important;
+  font-size: 1.5rem !important;
   letter-spacing: -0.01em;
 }
 
@@ -166,7 +166,7 @@ p,
 }
 
 .event-card {
-  border-left: 4px solid var(--primary-text);
+  border-left: 4px solid var(--background);
   border-radius: 0 12px 12px 0;
   background: rgba(255, 255, 255, 0.05);
   transition: all 0.3s ease;
@@ -177,7 +177,7 @@ p,
 }
 
 .footer {
-  background: rgba(27, 60, 83, 0.95);
+  background: var(--background);
   color: var(--text);
   padding: 80px 0 50px;
   border-top: 1px solid rgba(227, 227, 227, 0.1);
@@ -208,7 +208,7 @@ p,
   width: 45px;
   height: 45px;
   background: var(--accent);
-  color: var(--primary-text) !important;
+  color: var(--background ) !important;
   border-radius: 50%;
   margin-right: 12px;
   transition: all 0.3s ease;
@@ -217,14 +217,14 @@ p,
 }
 
 .social-icons a:hover {
-  background: var(--primary-text);
+  background: var(--background);
   color: var(--accent) !important;
   transform: translateY(-5px) rotate(10deg);
   border-color: var(--accent);
 }
 
 .social-icons i {
-  color: var(--primary-text) !important;
+  color: var(--background) !important;
   font-size: 18px;
 }
 
@@ -233,7 +233,7 @@ p,
 }
 
 .btn-accent {
-  background: var(--primary-text);
+  background: var(--background);
   color: var(--accent) !important;
   border: none;
   padding: 12px 32px;
